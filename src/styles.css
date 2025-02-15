@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f8ff; /* Light Blue Background */
+  color: #1e3a8a; /* Deep Blue Text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #1e40af; /* Medium Blue */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  color: #000000 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #a5c3ff !important; /* Light Blue */
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #1e40af; /* Medium Blue */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  border-bottom: 2px solid #1e40af;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+/* Sections */
+section {
+  padding: 15px;
+  border-radius: 8px;
+  background: #e3efff; /* Very Light Blue */
+  margin-bottom: 20px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e40af;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3b82f6;
+}
+
+/* Buttons */
+.btn-outline-success {
+  border-color: #1e40af;
+  color: #1e40af;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+  background-color: #1e40af;
+  color: white;
+}
+
+/* Search Bar */
+.form-control {
+  border-radius: 20px;
+  border: 2px solid #1e40af;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 6px rgba(30, 64, 175, 0.5);
+  border-color: #1e40af;
+}
